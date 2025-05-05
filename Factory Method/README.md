@@ -12,18 +12,4 @@ O **Factory Method** define uma interface para criar um objeto, mas permite que 
 - Facilita a extensão com novas classes sem alterar o código existente;
 - Promove o uso de interfaces e classes abstratas.
 
----
-
-## 🏗️ Estrutura do projeto
-
-```text
-PadroesProjetos/
-└── src/
-    └── main/
-        └── java/
-            └── org/
-                └── fh/
-                    ├── domain/         # Contém as classes principais do domínio (Ex: EmailNotification)
-                    ├── factorys/       # Implementações do padrão Factory Method (Ex: EmailNotificationFactory)
-                    └── interfaces/     # Interfaces que definem os contratos para as factorys
                     
