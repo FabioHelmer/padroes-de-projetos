@@ -36,6 +36,10 @@ Com o Abstract Factory, é possível criar fábricas específicas para cada sist
 Assim, ao mudar a fábrica utilizada, toda a interface da aplicação muda de forma consistente e sem necessidade de alterar o código de criação dos objetos em si.
 
 ---
+## Diagrama de Classes
+![Diagrama de Classes](img/diagrama_classe.png)
+
+---
 
 > Este exemplo ilustra como o padrão Abstract Factory promove **flexibilidade**, **consistência** e **baixo acoplamento** na criação de objetos relacionados.
 
