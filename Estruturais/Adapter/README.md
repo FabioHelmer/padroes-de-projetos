@@ -1,17 +1,17 @@
-# 🧱 Builder - Exemplo em Java
+# 🔌 Adapter - Exemplo em Java
 
-Este projeto demonstra a implementação do padrão de projeto **Builder** em Java, um dos padrões criacionais mais utilizados na programação orientada a objetos. O Builder é ideal para a criação de objetos complexos com muitos parâmetros, especialmente quando alguns deles são opcionais.
+Este projeto demonstra a implementação do padrão de projeto **Adapter** em Java. O Adapter é um dos padrões estruturais da programação orientada a objetos e é usado para permitir que classes com interfaces incompatíveis trabalhem juntas.
 
-## 🧠 Entendendo o padrão Builder
+## 🧠 Entendendo o padrão Adapter
 
-O padrão Builder permite construir objetos passo a passo, separando a construção da representação. Isso evita a criação de múltiplos construtores com diferentes combinações de parâmetros e melhora a legibilidade do código.
+O Adapter atua como um "tradutor" entre duas interfaces incompatíveis. Ele permite que uma interface existente seja utilizada como se fosse outra, sem modificar o código original da classe.
 
 ### Características:
-- Permite a criação de objetos com muitos atributos opcionais;
-- Separa a lógica de construção do objeto da própria classe;
-- Facilita a leitura e manutenção do código.
+- Cria uma ponte entre interfaces incompatíveis;
+- Permite o reaproveitamento de classes antigas em novos sistemas;
+- Segue o princípio **Open/Closed** (aberto para extensão, fechado para modificação).
 
 ### Vantagens:
-- Reduz a complexidade do código ao evitar construtores longos;
-- Código mais claro e legível, especialmente com muitos parâmetros;
-- Facilita a criação de objetos imutáveis.
+- Aumenta a reutilização de código existente;
+- Facilita a integração com bibliotecas legadas;
+- Reduz o acoplamento entre componentes do sistema.

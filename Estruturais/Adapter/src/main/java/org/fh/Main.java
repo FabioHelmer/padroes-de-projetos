@@ -1,16 +1,17 @@
 package org.fh;
 
-import org.fh.domain.Pessoa;
+import org.fh.adapters.AdaptadorTomada;
+import org.fh.interfaces.Tomada3Pinos;
 
 public class Main {
-    public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa.Builder()
-                .nome("Fábio")
-                .sobrenome("Helmer")
-                .idade(30)
-                .email("fabio.helmer@email.com")
-                .build();
 
-        System.out.println(pessoa);
+    public static void conectarDispositivo(Tomada3Pinos tomada) {
+        tomada.conectar();
     }
+
+    public static void main(String[] args) {
+        Tomada3Pinos adaptador = new AdaptadorTomada();
+        conectarDispositivo(adaptador); // Saída: Tomada de 2 pinos conectada.
+    }
+
 }
